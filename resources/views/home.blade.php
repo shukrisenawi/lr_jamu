@@ -198,23 +198,23 @@
       <div class="flex justify-center mt-10 m-auto flex-wrap">
         <x-card5>
           <x-slot:title>Minyak panas jenis roll menjadikan ia mudah digunakan</x-slot:title>
-          <x-slot:img>gambar/k-1.png</x-slot:img>
+          <x-slot:img>gambar/a-1.png</x-slot:img>
         </x-card5>
 
         <x-card5>
           <x-slot:title>Mudah dibawa kemana sahaja</x-slot:title>
-          <x-slot:img>gambar/k-2.png</x-slot:img>
+          <x-slot:img>gambar/a-2.png</x-slot:img>
         </x-card5>
 
         <x-card5>
           <x-slot:title>Mempunyai pelbagai wangian</x-slot:title>
-          <x-slot:img>gambar/k-6.png</x-slot:img>
+          <x-slot:img>gambar/a-3.png</x-slot:img>
         </x-card5>
       </div>
     </div>
 
-    <div class="max-w-[1000px] m-auto text-center p-8">
-      <h1 class="text-[56px] font-yeseva leading-15 text-color10 -mt-10">Sesuai digunakan untuk:</h1>
+    <div class="max-w-[1000px] m-auto text-center px-5 pb-8">
+      <h1 class="text-[38px] md:text-[56px] font-yeseva leading-10 sm:leading-20 text-color10">Sesuai digunakan untuk:</h1>
       <div class="mt-10 m-auto max-w-[800px]">
         <x-card4>Mengurangkan sakit kepala.</x-card4>
         <x-card4>Mabuk perjalanan</x-card4>
