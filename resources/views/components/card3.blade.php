@@ -1,4 +1,4 @@
-<div class="card w-70 shadow m-3 rounded-2xl bg-color8">
+<div class="card w-40 sm:w-70 shadow m-3 rounded-2xl bg-color8">
 
   <figure class="px-10 pt-10 -mx-10 -mt-10">
     <img

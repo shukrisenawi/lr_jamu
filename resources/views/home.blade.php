@@ -2,13 +2,13 @@
     <x-slot:idPage>{{ $idPage }}</x-slot:idPage>
 
   <div class="block text-neutral-content p-1 text-center bg-color1">
-    <span class="block align-content-center font-bold tracking-widest">JAMU ASLI ORANG KAMPUNG</span>
+    <span class="block align-content-center font-bold tracking-widest">JAMU ASLI TRADISIONAL</span>
   </div>
   <div class="text-center bg-color2 p-8">
-      <h1 class="text-[56px] text-color3 font-yeseva leading-[1]">JAMU ASLI<br>
+      <h1 class="text-[50px] md:text-[60px] text-color3 font-yeseva leading-[1]">JAMU ASLI<br>
         & AURORA TERAPI</h1>
       <br class="mt-1">
-      <h2 class="text-[30px] leading-[1] font-montserrat font-bold tracking-widest text-color4">BUATAN ORANG KAMPUNG</h2>
+      <h2 class="text-[50px] md:text-[60px] leading-[1] font-bold font-satisfy text-color4">Tradisional</h2>
 
       <br class="mt-5">
       <div class="text-center">
@@ -16,9 +16,9 @@
       </div>
   </div>
 
-  <div class="text-center bg-color3 py-8">
-    <h1 class="text-[56px] text-color5 font-yeseva leading-[1] px-8">Dah lama anda hadapi<br>masalah seperti di bawah?</h1>
-    <div class="flex flex-wrap justify-center mt-10 max-w-[1000px] m-auto">
+  <div class="text-center bg-color3 py-5">
+    <h1 class="text-[30px] md:text-[50px] text-color5 font-yeseva leading-[1] px-8">Dah lama anda hadapi<br>masalah seperti di bawah?</h1>
+    <div class="flex flex-wrap justify-center mt-5 max-w-[1000px] m-auto">
         <x-card1>
         <x-slot:title>Selalu letih walaupun cukup tidur</x-slot:title>
         <x-slot:description>Ramai wanita alami badan lesu, tak bertenaga, mudah stress – terutamanya lepas bersalin atau bila umur makin meningkat.</x-slot:description>
@@ -58,25 +58,25 @@
   </div>
 
   <div class="block text-neutral-content p-1 text-center bg-color7">
-    <span class="block align-content-center font-black font-poppins tracking-widest text-color3">MEMPERKENALKAN..</span>
+    <span class="sm:text-[20px] block align-content-center font-black font-poppins tracking-widest text-color3">MEMPERKENALKAN..</span>
   </div>
 
-  <div class="text-center bg-color5 text-color3 p-8">
-      <h1 class="text-[61px] font-yeseva leading-20">JAMU ASLI</h1>
-      <h2 class="font-agbalumo text-[32px] leading-7">Warisan Tradisi, Rahsia Awet Muda<br>Mengandungi 41 Herba terpilih!!</h2>
-      <h2 class=" font-agbalumo text-[37px] leading-8">Khas untuk para wanita!!</h2>
+  <div class="text-center bg-color5 text-color3">
+      <h1 class="text-[50px] sm:text-[61px] font-yeseva leading-20">JAMU ASLI</h1>
+      <h2 class="font-agbalumo text-[22px] sm:text-[32px] leading-5 sm:leading-7">Warisan Tradisi, Rahsia Awet Muda<br>Mengandungi 41 Herba terpilih!!</h2>
+      <h2 class=" font-agbalumo text-[25px] sm:text-[37px] leading-8">Khas untuk para wanita!!</h2>
       <div class="flex justify-center mt-10 w-[400px] m-auto">
-        <img class="m-auto max-w-[500px] z-2" src="../img/produk 2.png"/>
-          <div class="w-[500px] h-[400px] -ml-20 -mr-10 rounded-[50px] z-0 bg-color8 text-color5 p-10 font-akaya text-[22px] leading-5">
+        <img class="m-auto max-w-[300px] sm:max-w-[400px] -mt-5 z-2" src="../img/produk 2.png"/>
+          <div class="w-[500px] h-[400px] -ml-5 -mr-10 rounded-[50px] hidden z-0 bg-color8 text-color5 p-10 font-akaya text-[22px] leading-5">
             Jamu Asli ini diformulasikan khas mengikut ramuan tradisi turun-temurun. Dirumus daripada herba asli yang terkenal dengan khasiat luar biasa untuk kesihatan dalaman wanita.
           </div>
-          <img class="m-auto max-w-[300px] z-1 -mb-8" src="../img/model.png"/>
+          <img class="m-auto max-w-[300px] z-1 -mb-8" hidden src="../img/model.png"/>
       </div>
   </div>
 
-  <div class="text-center bg-color1 p-8">
+  <div class="text-center bg-color1 py-8">
       <div class="max-w-[1000px] m-auto">
-        <h1 class="text-[56px] font-yeseva leading-20 text-color2">41 HERBA TERPILIH</h1>
+        <h1 class="text-[40px] md:text-[56px] font-yeseva leading-13 sm:leading-20 text-color2">41 HERBA TERPILIH</h1>
         <div class="text-center mt-5 m-auto">
             {{-- <img class="h-[400px] m-auto" src="../img/produk2.png"/> --}}
             <div class="flex justify-center flex-wrap m-auto">
@@ -128,13 +128,13 @@
                 <x-slot:img>gambar/h-8.png</x-slot:img>
                 </x-card2>
 
-                <span class="text-color5 font-poppins mt-4 text-[20px]">Serta 31 herba terpilih yang lain...</span>
-            </div>
+
+            </div>   <span class="text-color5 font-poppins mt-4 text-[20px]">Serta 31 herba terpilih yang lain...</span>
         </div>
 
 
-        <div class="max-w-[1000px] m-auto text-center p-8">
-          <h1 class="text-[56px] font-yeseva leading-20 mt-5 text-color2">KHASIAT JAMU ASLI</h1>
+        <div class="max-w-[1000px] m-auto text-center py-8">
+          <h1 class="text-[40px] md:text-[56px] font-yeseva leading-13 sm:leading-20 text-color2">KHASIAT JAMU ASLI</h1>
             <div class="flex justify-center mt-5 m-auto flex-wrap">
 
               <x-card3>
@@ -172,29 +172,30 @@
 
       </div>
 
-      <div class="max-w-[1000px] m-auto text-center p-8">
-        <h1 class="text-[56px] font-yeseva leading-15 text-color2">Kenapa Anda Perlu Dapatkan Jamu Ini?</h1>
+      <div class="max-w-[1000px] m-auto text-center px-8">
+        <h1 class="text-[35px] md:text-[50px] font-yeseva leading-[1] text-color2">Kenapa Anda Perlu Dapatkan Jamu Ini?</h1>
         <div class="mt-10 m-auto max-w-[800px]">
-          <x-card4>Resepi Tradisi Warisan Nenek Moyang.</x-card4>
-          <x-card4>Khasiat Menyeluruh Untuk Dalaman Wanita</x-card4>
-          <x-card4>Bantu Atasi Masalah Keputihan, Senggugut & Lesu</x-card4>
-          <x-card4>Rahsia Awet Muda Secara Semulajadi</x-card4>
-          <x-card4>Harga Mampu Milik, Kualiti Premium</x-card4>
-          <x-card4>Mudah Diamalkan & Selamat Digunakan</x-card4>
-          <x-card4>Produk Muslim & Buatan Malaysia</x-card4>
+          <x-card4>Resepi tradisi warisan nenek moyang.</x-card4>
+          <x-card4>Khasiat menyeluruh untuk dalaman wanita</x-card4>
+          <x-card4>Bantu atasi masalah keputihan, senggugut & lesu</x-card4>
+          <x-card4>Rahsia awet muda secara semulajadi</x-card4>
+          <x-card4>Harga mampu milik</x-card4>
+          <x-card4>Mudah diamalkan & selamat digunakan</x-card4>
+          <x-card4>Produk muslim & buatan malaysia</x-card4>
         </div>
       </div>
   </div>
 
   <div class=" bg-color9 text-color10">
-    <div class="max-w-[1000px] m-auto text-center justify-center p-8">
-      <span class="text-[30px] font-poppins leading-15 mt-5 font-bold">Tunggguuuu..</span>
-      <span class="text-[30px] font-poppins leading-15 mt-5">Kami ada produk istimewa untuk anda..</span>
-      <span class="text-[30px] font-poppins font-bold italic leading-15 mt-5">Memperkenalkan....</span>
-      <h1 class="text-[56px] font-yeseva leading-15 mt-5">MINYAK PANAS AURORA TERAPI</h1>
-      <img class="max-w-[500px] m-auto" src="../img/produk3.png"/>
+    <div class="max-w-[1000px] m-auto text-center justify-center py-8">
+      <p class="text-[30px] font-poppins leading-15 font-bold">Tunggguuuu..</p>
+      <p class="text-[20px] sm:text-[30px] font-poppins leading-5 sm:leading-15">Kami ada produk istimewa untuk anda..</p>
+      <p class="text-[30px] font-poppins font-bold italic leading-15">Memperkenalkan....</p><br>
+      <h1 class="text-[42px] sm:text-[61px] font-yeseva leading-13 sm:leading-20">MINYAK PANAS AURORA TERAPI</h1>
+      <div class="px-10">
+            <img class="w-[100%] sm:max-w-[500px] m-auto my-5" src="../img/produk3.png"/>
+      </div>
       <div class="flex justify-center mt-10 m-auto flex-wrap">
-
         <x-card5>
           <x-slot:title>Minyak panas jenis roll menjadikan ia mudah digunakan</x-slot:title>
           <x-slot:img>gambar/k-1.png</x-slot:img>
